@@ -1,0 +1,67 @@
+html {
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body {
+    padding-inline: 15vw;
+}
+
+header {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+.main-container {
+    display: flex;
+    gap: 40px;
+}
+
+main img {
+    width: 100%;
+}
+
+aside {
+    background-color: var(--Very-dark-blue);
+    padding: 10px 30px;
+    color: var(--off-white);
+}
+
+aside h2 {
+    color: var(--soft-orange);
+    font-size: 2.5em;
+}
+
+aside p {
+    color: var(--grayish-blue);
+}
+
+.main-summary {
+    display: flex;
+}
+
+.main-summary h1 {
+    font-size: 3em;
+}
